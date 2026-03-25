@@ -12,7 +12,7 @@ GPU Desteği: Ollama; NVIDIA (CUDA), AMD (ROCm) ve Apple Silicon (Metal) birimle
 2. Python Bağımlılıkları<br>
 Terminali açın ve gerekli kütüphaneleri yükleyin:<br>
 
-Bash<br>
+<br>
 pip install ollama duckduckgo-search newspaper3k<br><br>
 3. Wandel Modelini Oluşturma<br>
 Wandel'in özel komut setini ve karakterini yüklemek için şu adımları izleyin:<br>
@@ -23,12 +23,12 @@ Proje klasöründe Modelfile adında bir dosya oluşturun.<br>
 
 Terminalde şu komutu çalıştırarak Wandel'i sisteme kaydedin:<br>
 
-Bash<br>
+<br>
 ollama create wandel -f Modelfile<br><br>
 💻 Kullanım Talimatları<br>
 Projeyi başlatmak için terminale şu komutu yazın:<br><br>
 
-Bash<br>
+<br>
 python wandel.py<br><br>
 Komutlar ve Özellikler:<br>
 Soru Sorma: Doğrudan merak ettiğiniz şeyi yazın. Eğer sorunuzda "kim, nedir, haber, araştır" gibi anahtar kelimeler geçerse, Wandel otomatik olarak internete bağlanır.<br><br>
