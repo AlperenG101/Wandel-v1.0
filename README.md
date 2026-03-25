@@ -50,3 +50,5 @@ Düşük Sistemler/Sadece CPU: Eğer ekran kartınız zayıfsa, Modelfile içind
 
 📜 Lisans ve Geliştirici
 Bu proje Alperen tarafından geliştirilmiştir. Eğitim ve kişisel kullanım için açık kaynaklıdır.
+
+UYARI!: YAPAY ZEKANIN EKRAN KARTI ÜZERİNDE DÜZGÜN ÇALIŞMASI İÇİN MİNİMUM 12 GB EKRAN KARTI OLMASI GEREKLİDİR! 12 GB VRAM altındaki kartlarda modelin num_ctx değerini düşürmeniz gereklidir (wandel.py dosyasındaki num_ctx değeri).
